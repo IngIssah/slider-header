@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+
+	<style type="text/css">
+	
+
+		.header{
+			height:700px ;
+			width:100% ;
+			position: relative;
+			background-position: 100% 100%;
+			background-repeat:  no-repeat;
+			background-size:cover;
+			animation-name: slide;
+			animation-duration: 20s;
+			animation-timing-function:ease-in;
+			animation-iteration-count: infinite;
+
+		}
+
+		
+
+		@keyframes slide{
+			0%{
+				background-image: url('images/image1.jpg');
+
+			}
+			25%{
+				background-image: url('images/image2.jpg');
+
+			}
+			50%{
+				background-image: url('images/image3.jpg');
+			}
+			75%{
+				background-image: url('images/image4.jpg');
+
+			}
+			100%{
+				background-image: url('images/image5.jpg');
+
+			}
+
+
+		}
+		.nav{
+			display: flex;
+			justify-content: space-around;
+
+		}
+
+		
+
+
+
+	</style>
+	
+</head>
+<body>
+<div class="header">
+	<div class="nav">
+		<div class="logo"><h2>Logo</h2></div>
+		<div class="links">
+			<ul>
+				<li><a href="#">Home</li>
+				<li><a href="#">About Us</li>
+				<li><a href="#">Portfolio</li>
+				<li><a href="#">Contact Us</li>
+			</ul>
+		</div>
+
+	</div>
+
+
+</div>
+
+</body>
+</html>

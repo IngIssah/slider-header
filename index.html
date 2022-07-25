@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS Positions</title>
+	<style type="text/css">
+	
+
+		.conatainer{
+			height:800px ;
+			width:100% ;
+			text-align: center;
+			font-size: 60px;
+			position: relative;
+			background-position: 100% 100%;
+			background-repeat:  no-repeat;
+			background-size:cover;
+			animation-name: slide;
+			animation-delay: 5s;
+			animation-duration: 5s;
+			animation-timing-function:ease-in;
+			animation-iteration-count: infinite;
+
+		}
+
+		h2{
+			position: absolute;
+			left: 50px;
+			
+		
+			
+
+		}
+
+	.text{ font-size: 20px; padding-top: 200px; }
+		@keyframes slide{
+			0%{
+				background-image: url('images/image1.jpg');
+
+			}
+			25%{
+				background-image: url('images/image2.jpg');
+
+			}
+			50%{
+				background-image: url('images/image3.jpg');
+			}
+			75%{
+				background-image: url('images/image4.jpg');
+
+			}
+			100%{
+				background-image: url('images/image5.jpg');
+
+			}
+
+
+		}
+
+		
+
+
+
+	</style>
+</head>
+<body>
+
+	<div class="conatainer">
+		<div class="heading"><h2> WELCOME TO ZONGOVATION HUB</h2></div>
+		<div class=" text"><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. Elementum curabitur vitae nunc sed. Et netus et malesuada fames ac. Cursus turpis massa tincidunt dui ut ornare lectus sit. Mauris sit amet massa vitae tortor condimentum lacinia. Consectetur purus ut faucibus pulvinar elementum integer enim neque. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis. Ultrices gravida dictum fusce ut placerat orci nulla. Habitasse platea dictumst vestibulum rhoncus est. Ultrices mi tempus imperdiet nulla malesuada. Arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. Gravida arcu ac tortor dignissim convallis aenean et. Mattis nunc sed blandit libero volutpat sed. Nunc lobortis mattis aliquam faucibus. Lacinia at quis risus sed vulputate odio ut enim blandit. Quam quisque id diam vel quam elementum. Suspendisse ultrices gravida dictum fusce.</p></div>
+
+
+		
+	</div>
+
+</body>
+</html>
